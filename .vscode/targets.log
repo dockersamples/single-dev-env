@@ -1,0 +1,230 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Aug 13 21:05:07 2023
+
+# Variables
+
+# environment
+REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-c9a22e47-efbe-4756-ac95-44d8991a75ed.sock"]
+# environment
+GO111MODULE = auto
+# environment
+LC_ALL = C
+# environment
+VSCODE_CWD = /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794
+# environment
+NVM_DIR = /usr/local/share/nvm
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# environment
+GOPATH = /go
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /com.docker.devenvironments.code
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+HOSTNAME = b74679381bd1
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+LANG = C
+# environment
+NVM_SYMLINK_CURRENT = true
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# environment
+PROMPT_DIRTRIM = 4
+# makefile
+MAKEFLAGS = pqrR
+# environment
+GOLANG_VERSION = 1.19
+# makefile
+CURDIR := /com.docker.devenvironments.code
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-c9a22e47-efbe-4756-ac95-44d8991a75ed.sock
+# default
+.SHELLFLAGS := -c
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","osLocale":"en","availableLanguages":{}}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/usr/local/share/nvm/current/bin:/go/bin:/usr/local/go/bin:/usr/local/share/nvm/current/bin:/go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-c9a22e47-efbe-4756-ac95-44d8991a75ed.sock
+# environment
+REMOTE_CONTAINERS = true
+# automatic
+?F = $(notdir $?)
+# automatic
++F = $(notdir $+)
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+BROWSER = /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/helpers/browser.sh
+# makefile
+.DEFAULT_GOAL := build
+# environment
+USER = root
+# default
+MAKE_VERSION := 4.3
+# environment
+VSCODE_AGENT_FOLDER = /root/.vscode-server
+# environment
+_ = /bin/cat
+# environment
+NVM_RC_VERSION = 
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-4a9164c8-10e5-4bdb-93b4-8ac4273f9c83.sock
+# environment
+NVM_CD_FLAGS = 
+# environment
+GOMODCACHE = /go/pkg/mod
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /root
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# variable set hash-table stats:
+# Load=69/1024=7%, Rehash=0, Collisions=2/99=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2096, inode 7685): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-13 14:18:22.736444718
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+run:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 8):
+	go run main.go
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 3):
+	mkdir -p bin
+	go build -trimpath -o bin/single-dev-env
+
+.PHONY: build run
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/22=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 18 / storage = 150 B / avg = 8 B
+# current buf: size = 8162 B / used = 150 B / count = 18 / avg = 8 B
+
+# strcache performance: lookups = 29 / hit rate = 37%
+# hash-table stats:
+# Load=18/8192=0%, Rehash=0, Collisions=0/29=0%
+# Finished Make data base on Sun Aug 13 21:05:07 2023
+
+ 
+make: *** No rule to make target 'all'.  Stop.
+
