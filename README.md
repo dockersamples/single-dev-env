@@ -1,25 +1,15 @@
-# single-dev-env
-Example used to try a single container sample of Docker Dev Environments
+# stream-test
 
-## Run the application
-You can simply use `make run` command or do it yourself with `go run main.go`
+To install dependencies:
 
-Those commands will start a http server listening on port `8080` 
-and if your request `http://localhost:8080` you'll see the following output: 
-```shell
-❯ curl http://localhost:8080
-
-          ##         .
-    ## ## ##        ==
- ## ## ## ## ##    ===
-/"""""""""""""""""\___/ ===
-{                       /  ===-
-\______ O           __/
- \    \         __/
-  \____\_______/
-
-
-Hello from Docker!
-
+```bash
+bun install
 ```
 
+To run:
+
+```bash
+bun run index.ts
+```
+
+This project was created using `bun init` in bun v1.0.1. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
