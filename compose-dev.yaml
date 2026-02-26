@@ -1,8 +1,5 @@
 services:
-  app:
-    entrypoint:
-    - sleep
-    - infinity
+  app:github.com/top-chief/dev-environments-go:
     image: docker/dev-environments-go:stable-1
     init: true
     volumes:
